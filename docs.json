@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "南昌 10.6–10.7 行程手册",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#b4232a",
+    "light": "#d4502e",
+    "dark": "#8a1a20"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -31,7 +31,41 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "tabs": [
+      {
+        "tab": "行程手册",
+        "groups": [
+          {
+            "group": "总览",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "分日行程",
+            "pages": [
+              "itinerary/day1-arrive-night",
+              "itinerary/day2-tengwang-return"
+            ]
+          },
+          {
+            "group": "美食指南",
+            "pages": [
+              "food/zones-overview",
+              "food/xueya-guide"
+            ]
+          },
+          {
+            "group": "出发前",
+            "pages": [
+              "essentials/pre-trip-checklist",
+              "essentials/weather"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -68,5 +102,6 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
-  }
+  },
+  "description": "两日一晚国庆尾声南昌行程：地铁+步行、按落点就近吃、含莲花血鸭专题与 13:30 返程时刻表"
 }
